@@ -34,7 +34,6 @@ img
 {display: inline-block;
 margin-top: 70px;
 margin-left: 230px;
-
 }
 
 a
@@ -42,9 +41,11 @@ a
 	text-decoration: none;
 	display: inline-block;
 	margin-top: 13px;
-    margin-left: 40px;;
-}
-#butang1
+    margin-left: 40px;
+   }
+
+
+.butang
 {   list-style: none;
     background: #80b5dc;
     width: 136px;
@@ -52,24 +53,12 @@ a
     border-Radius: 5px;
     display: inline-block;
 }
-#butang2
-{   list-style: none;
-    background: #80b5dc;
-    width: 136px;
-    height: 50px;
-    border-Radius: 5px;
-     display: inline-block;
-}
 
-#butang3
-{	list-style: none;
-    background: #80b5dc;
-    width: 136px;
-    height: 50px;
-    border-Radius: 5px;
-    display: inline-block;
+.butang:hover
+{
+	background: red;
+	
 }
-
 
 #badan
 {
@@ -123,7 +112,7 @@ a
 	width: 20px;
     height: 20px;
     border-radius: 10px;
-    background: red;
+    background: #e27e7e;
     top: -5px;
     left: -5px;
 
@@ -135,7 +124,7 @@ a
 	width: 20px;
     height: 20px;
     border-radius: 10px;
-    background: red;
+    background: #e27e7e;
     bottom: -5px;
     right: -5px;
 
@@ -157,18 +146,18 @@ a
 
 
 <body>
-<section id="wrapper">
+<section  id="wrapper">
 	<section id="kepala">
 	<img src="http://ii.islam.gov.my/mosque/images/img/15-masjid_negeri_selangor.jpg">
 
 	<div id="butang">
-	<div id="butang1">
+	<div class="butang" id="google">
 		<a href="www.google.com">Google</a>
 	</div>
-	<div id="butang2">
+	<div class="butang" id="yahoo">
 		<a href="www.yahoo.com">Yahoo</a>
 	</div>
-	<div id="butang3">
+	<div class="butang" id="facebook">
 		<a href="www.facebook.com">Facebook</a>
 	</div>
 	</div>
