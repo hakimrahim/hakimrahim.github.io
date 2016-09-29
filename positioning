@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style type="text/css">
+
+/*
+{border: dashed blue 1px;
+margin: 0;}
+*/
+
+#wrapper
+{width: 700px;
+margin: auto;}
+
+#kepala
+{
+    width: 100%;
+    height: 200px;
+    border: solid;
+    position: relative;
+}
+
+img 
+{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+
+#butang
+{display: inline-block;
+margin-top: 70px;
+margin-left: 230px;
+
+}
+
+a
+{
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 13px;
+    margin-left: 40px;;
+}
+#butang1
+{   list-style: none;
+    background: #80b5dc;
+    width: 136px;
+    height: 50px;
+    border-Radius: 5px;
+    display: inline-block;
+}
+#butang2
+{   list-style: none;
+    background: #80b5dc;
+    width: 136px;
+    height: 50px;
+    border-Radius: 5px;
+     display: inline-block;
+}
+
+#butang3
+{	list-style: none;
+    background: #80b5dc;
+    width: 136px;
+    height: 50px;
+    border-Radius: 5px;
+    display: inline-block;
+}
+
+
+#badan
+{
+    position: relative;
+    background: #badbf7;
+    width: 100%;
+    height: 460px;
+    display: block;
+    
+}
+
+#kiri
+{
+    background: #e2d52b;
+    display: inline-block;
+    top:0:
+    left:0;
+    width: 33%;
+    height: 300px;
+    margin: 10px;
+    
+    
+   
+}
+
+#kanan
+{
+    background: #e8e49d;
+    display: inline-block;
+    top: 0:
+    right: 0;
+    width: 60%;
+    height: 300px;
+    margin: 10px;
+    
+}
+
+.kotak
+{   position: relative;
+	display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: blueviolet;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.bulat_atas
+{
+	position: absolute;
+	width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: #e27e7e;
+    top: -5px;
+    left: -5px;
+
+}
+
+.bulat_bawah
+{
+	position: absolute;
+	width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: #e27e7e;
+    bottom: -5px;
+    right: -5px;
+
+}
+#kaki
+{
+    background: darkblue;
+    width: 100%;
+    height: 70px;
+    margin-top: 10px;
+}
+
+</style>
+
+</head>
+
+
+
+
+
+<body>
+<section id="wrapper">
+	<section id="kepala">
+	<img src="http://ii.islam.gov.my/mosque/images/img/15-masjid_negeri_selangor.jpg">
+
+	<div id="butang">
+	<div id="butang1">
+		<a href="www.google.com">Google</a>
+	</div>
+	<div id="butang2">
+		<a href="www.yahoo.com">Yahoo</a>
+	</div>
+	<div id="butang3">
+		<a href="www.facebook.com">Facebook</a>
+	</div>
+	</div>
+
+	</section>
+
+	<section id="badan">
+	<div id="kiri"></div>
+	<div id="kanan"></div>
+	<div class="kotak" id="1">
+		<div class="bulat_atas"></div>
+		<div class="bulat_bawah"></div>
+	</div>
+	<div class="kotak" id="2">
+		<div class="bulat_atas"></div>
+		<div class="bulat_bawah"></div>
+	</div>
+	<div class="kotak" id="3">
+		<div class="bulat_atas"></div>
+		<div class="bulat_bawah"></div>
+	</div>
+	<div class="kotak" id="4">
+		<div class="bulat_atas"></div>
+		<div class="bulat_bawah"></div>
+	</div>
+
+	
+	</section>
+	<section id="kaki">
+	
+
+	
+	</section>
+</section>
+</body>
+</html>
