@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="reform.css">
+
+
+
+</head>
+
+
+<body>
+<section  id="wrapper">
+	<section id="kepala">
+	<img src="https://lh3.ggpht.com/Did6XZakrOm0bjEI5JV4_7rbji24iA5M7TCuXlMFJrxx08d7PINfb64qUsLS55xbdIk=h1080">
+
+	<div id="butang">
+	<div class="butang">About </div>
+	<div class="butang">FAQ </div>
+	<div class="butang">Contact</div>
+
+	</div>
+
+	</section>
+
+	<section id="badan">
+	<div id="kiri">
+		<h1>
+			apa khabar??
+		</h1>
+
+	</div>
+	<div id="kanan">
+		<h1>
+			khabar baik la..
+		</h1>
+		<p>Merenung ke luar jendela
+		Bayu pagi meniup lembut
+		Lihat bintang di angkasa
+		Purnama menerangi gelapku
+		Dan bila fajar menjelma
+		Itu permulaan hari baru
+		Dunia gamat bunyinya
+		Sunyiku hanya tuhan tahu
+		</p>
+	</div>
+	<div id="kekotak">
+	<div class="kotak" >
+		<div class="bulat_atas"></div>
+		<div class="bulat_bawah"></div>
+	</div>
+	<div class="kotak">
+		<div class="bulat_atas"></div>
+		<div class="bulat_bawah"></div>
+	</div>
+	<div class="kotak">
+		<div class="bulat_atas"></div>
+		<div class="bulat_bawah"></div>
+	</div>
+	<div class="kotak" >
+		<div class="bulat_atas"></div>
+		<div class="bulat_bawah"></div>
+	</div>
+		</div>
+	
+	</section>
+	<section id="form">
+
+		<div id="borang">
+
+			<form action="#">
+					  <fieldset>
+					    <legend>Order Online</legend>
+					    First name:<br>
+					    <input type="text" name="firstname" value="" placeholder="Enter your first name"><br>
+					    Last name:<br>
+					    <input type="text" name="lastname" value="" placeholder="Enter your last name"><br>
+					    Email Address:<br>
+					    <input type="email" name="email" value="" placeholder="eg: email@domain.com"><br>
+					    Password:<br>
+					    <input type="password" name="password" value=""><br>
+					    Address:<br>
+					    <textarea name="message" rows="4" cols="30"></textarea><br>
+					    <input type="submit" value="Submit">
+					    <input type="reset">
+					  </fieldset>
+					</form>
+
+		</div>
+		<div id="radio">
+			<form action="#">
+					<fieldset>
+					<legend>Help Us To Improve</legend>
+					  I'm a:<br>
+					  <input class="radio-button" type="radio" name="gadget" value="laki" checked=""> Male
+					  <input class="radio-button" type="radio" name="gadget" value="ppuan"> Female
+					  <input class="radio-button" type="radio" name="gadget" value="rahsia"> it's a secret <br><br>
+					  The merchandise I'm looking for: <br>
+					  <select name="merchandise">
+					  	<option value="default">Please choose</option>
+					    <option value="Chocolate">Chocolate</option>
+					    <option value="Flower">Flower</option>
+					    <option value="Roti">Roti Canai</option>
+					    <option value="Apollo">Apollo</option>
+					  </select> <br><br>
+					  I like to receive new web update via: <br>
+					  <input type="checkbox" name="email" value="email"> Email<br>
+					  <input type="checkbox" name="sms" value="sms"> SMS<br>
+					  <input type="checkbox" name="surat" value="surat"> surat<br>
+					  <input type="submit" value="Submit">
+					  </fieldset>
+					</form>
+
+
+		</div>
+
+	</section>
+	<section id="kaki">
+	
+
+	
+	</section>
+</section>
+</body>
+</html>
